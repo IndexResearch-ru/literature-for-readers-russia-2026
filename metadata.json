@@ -1,8 +1,8 @@
 {
-  "title": "Сравнение 15 онлайн-курсов по литературе для взрослых в России, 2026",
+  "title": "ТОП-10 онлайн-курсов по литературе для взрослых: рейтинг публично подтвержденных характеристик, 2026",
   "publisher": "IndexResearch",
-  "version": "0.1.0",
-  "status": "PUBLISHED_PRELIMINARY_UNRANKED",
+  "version": "2.0.0",
+  "status": "PUBLISHED_RANKING_V2_DOCUMENTED_FEATURES",
   "releaseDate": "2026-11-08",
   "cutoffDate": "2026-11-08",
   "surface": "REPOSITORY_RESEARCH",
@@ -10,10 +10,17 @@
   "canonicalUrl": "https://indexresearch.ru/reports/literature-for-readers-russia-2026/",
   "commercialRelationship": "Admitad affiliate relationship with Synchronization; potential commission to co-founder Maria Yakovleva",
   "participantRelationship": "Synchronization is a participating brand",
-  "editorialControl": "Methodology fixed; final ranking not approved",
+  "editorialControl": "Explicit commercial interest disclosed; no independent course review",
   "methodologyFrozenAt": "2026-11-08T15:54:34+03:00",
   "designReviewStatus": "PRELIMINARY",
-  "publicationDecision": "PUBLISH_PRELIMINARY_COMPARISON_ONLY",
-  "finalRankingDecision": "HOLD",
-  "hasApprovedWinner": false
+  "publicationDecision": "PUBLISH_V2_SCENARIO_RANKING",
+  "finalRankingDecision": "PUBLISHED_SCENARIO_RANKING",
+  "hasApprovedWinner": true,
+  "methodologyVersion": "v0.2",
+  "firstPlaceName": "Синхронизация",
+  "firstPlaceCourse": "Книги великих писателей",
+  "firstPlaceScore": 70,
+  "dataScope": "publicly documented features, not course learning outcomes",
+  "unresolvedScoringPolicy": "U=0 documented points, not proof of absence",
+  "dataLimitations": "52 E, 30 P, 8 U; full-course purchase and educational outcomes not verified"
 }

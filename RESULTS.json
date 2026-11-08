@@ -1,0 +1,926 @@
+{
+  "researchId": "literature-for-readers-russia-2026",
+  "title": "ТОП-10 онлайн-курсов по литературе для взрослых: рейтинг публично подтвержденных характеристик, 2026",
+  "publisher": "IndexResearch",
+  "version": "2.0.0",
+  "methodologyVersion": "v0.2",
+  "previousMethodologyFreeze": "2026-11-08T15:54:34+03:00",
+  "methodologyRevisionDate": "2026-11-08",
+  "cutoffDate": "2026-11-08",
+  "publicationDecision": "PUBLISH_V2_SCENARIO_RANKING",
+  "publicationState": "PUBLISHED_SOURCE_QA_LIVE_REVIEW_SEPARATE",
+  "scope": "Только публично описанные свойства конкретных русскоязычных курсов, не качество уроков",
+  "candidateCount": 15,
+  "includedCount": 15,
+  "publishedTopCount": 10,
+  "scoredComponents": 90,
+  "sourceCount": 31,
+  "evidenceStatuses": {
+    "E": 52,
+    "P": 30,
+    "U": 8
+  },
+  "scoreFormula": "SUM(weight_percent * (documented_level_0_4 OR zero_if_U) / 4)",
+  "missingDataPolicy": "U receives 0 points for missing public evidence; is not evidence that a feature is absent. Upper bounds published separately.",
+  "tieRule": "competition ranking 1,2,2,4; no tie-breaker",
+  "criteria": [
+    {
+      "id": "C1",
+      "name": "Предметный разбор художественных произведений",
+      "weightPercent": 30,
+      "scale": [
+        0,
+        4
+      ]
+    },
+    {
+      "id": "C2",
+      "name": "Литературные приемы и устройство текста",
+      "weightPercent": 20,
+      "scale": [
+        0,
+        4
+      ]
+    },
+    {
+      "id": "C3",
+      "name": "Исторический контекст и связи между текстами",
+      "weightPercent": 15,
+      "scale": [
+        0,
+        4
+      ]
+    },
+    {
+      "id": "C4",
+      "name": "Последовательность учебного маршрута",
+      "weightPercent": 15,
+      "scale": [
+        0,
+        4
+      ]
+    },
+    {
+      "id": "C5",
+      "name": "Самостоятельное осмысление и закрепление",
+      "weightPercent": 10,
+      "scale": [
+        0,
+        4
+      ]
+    },
+    {
+      "id": "C6",
+      "name": "Доступ к полной программе для взрослого читателя",
+      "weightPercent": 10,
+      "scale": [
+        0,
+        4
+      ]
+    }
+  ],
+  "sensitivityIterations": 5000,
+  "weightSensitivity": {
+    "seed": 20261108,
+    "distribution": "PCG64 Uniform(0.75,1.25) on weights normalized",
+    "winnerFirst_U0": 3861,
+    "winnerFirst_U0Percent": 77.22,
+    "winnerFirst_otherU4": 2980,
+    "winnerFirst_otherU4Percent": 59.6
+  },
+  "firstPlaceName": "Синхронизация",
+  "firstPlaceCourse": "Книги великих писателей",
+  "firstPlaceScore": 70,
+  "firstPlaceScoreBoundary": 70,
+  "leadVerification": "P01/C6 = 2 on official recorded-course certificate catalogue plus described certificate redemption path; actual checkout not tested; former standalone landing 404.",
+  "commercialRelationship": "Co-founder Maria Yakovleva participates in Synchronization's Admitad affiliate program and may receive commission; no independent paid-course review.",
+  "top10": [
+    {
+      "poolId": "P01",
+      "publisher": "Синхронизация",
+      "course": "Книги великих писателей",
+      "score": 70,
+      "scoreUpperBound": 70,
+      "unresolvedCriteria": 0,
+      "criterionLevels": {
+        "C1": 4,
+        "C2": 2,
+        "C3": 3,
+        "C4": 3,
+        "C5": 1,
+        "C6": 2
+      },
+      "criterionPoints": {
+        "C1": 30,
+        "C2": 10,
+        "C3": 11.25,
+        "C4": 11.25,
+        "C5": 2.5,
+        "C6": 5
+      },
+      "evidenceStatuses": {
+        "C1": "P",
+        "C2": "P",
+        "C3": "P",
+        "C4": "P",
+        "C5": "P",
+        "C6": "P"
+      },
+      "position": 1
+    },
+    {
+      "poolId": "P10",
+      "publisher": "МИФ",
+      "course": "Читальный зал: русская классика",
+      "score": 68.75,
+      "scoreUpperBound": 68.75,
+      "unresolvedCriteria": 0,
+      "criterionLevels": {
+        "C1": 3,
+        "C2": 2,
+        "C3": 4,
+        "C4": 3,
+        "C5": 1,
+        "C6": 3
+      },
+      "criterionPoints": {
+        "C1": 22.5,
+        "C2": 10,
+        "C3": 15,
+        "C4": 11.25,
+        "C5": 2.5,
+        "C6": 7.5
+      },
+      "evidenceStatuses": {
+        "C1": "E",
+        "C2": "E",
+        "C3": "E",
+        "C4": "E",
+        "C5": "E",
+        "C6": "E"
+      },
+      "position": 2
+    },
+    {
+      "poolId": "P11",
+      "publisher": "МИФ",
+      "course": "Читальный зал: зарубежная классика",
+      "score": 68.75,
+      "scoreUpperBound": 68.75,
+      "unresolvedCriteria": 0,
+      "criterionLevels": {
+        "C1": 3,
+        "C2": 2,
+        "C3": 4,
+        "C4": 3,
+        "C5": 2,
+        "C6": 2
+      },
+      "criterionPoints": {
+        "C1": 22.5,
+        "C2": 10,
+        "C3": 15,
+        "C4": 11.25,
+        "C5": 5,
+        "C6": 5
+      },
+      "evidenceStatuses": {
+        "C1": "P",
+        "C2": "P",
+        "C3": "P",
+        "C4": "P",
+        "C5": "P",
+        "C6": "P"
+      },
+      "position": 2
+    },
+    {
+      "poolId": "P04",
+      "publisher": "Level One",
+      "course": "Главные книги русской литературы",
+      "score": 67.5,
+      "scoreUpperBound": 67.5,
+      "unresolvedCriteria": 0,
+      "criterionLevels": {
+        "C1": 3,
+        "C2": 2,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 2
+      },
+      "criterionPoints": {
+        "C1": 22.5,
+        "C2": 10,
+        "C3": 11.25,
+        "C4": 11.25,
+        "C5": 7.5,
+        "C6": 5
+      },
+      "evidenceStatuses": {
+        "C1": "P",
+        "C2": "P",
+        "C3": "P",
+        "C4": "P",
+        "C5": "P",
+        "C6": "P"
+      },
+      "position": 4
+    },
+    {
+      "poolId": "P12",
+      "publisher": "Правое полушарие Интроверта",
+      "course": "История литературы за 24 часа",
+      "score": 65,
+      "scoreUpperBound": 65,
+      "unresolvedCriteria": 0,
+      "criterionLevels": {
+        "C1": 2,
+        "C2": 2,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 4
+      },
+      "criterionPoints": {
+        "C1": 15,
+        "C2": 10,
+        "C3": 11.25,
+        "C4": 11.25,
+        "C5": 7.5,
+        "C6": 10
+      },
+      "evidenceStatuses": {
+        "C1": "E",
+        "C2": "E",
+        "C3": "E",
+        "C4": "E",
+        "C5": "E",
+        "C6": "E"
+      },
+      "position": 5
+    },
+    {
+      "poolId": "P05",
+      "publisher": "Level One",
+      "course": "Достоевский, Толстой, Чехов",
+      "score": 60,
+      "scoreUpperBound": 60,
+      "unresolvedCriteria": 0,
+      "criterionLevels": {
+        "C1": 3,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 1,
+        "C6": 4
+      },
+      "criterionPoints": {
+        "C1": 22.5,
+        "C2": 10,
+        "C3": 7.5,
+        "C4": 7.5,
+        "C5": 2.5,
+        "C6": 10
+      },
+      "evidenceStatuses": {
+        "C1": "E",
+        "C2": "E",
+        "C3": "E",
+        "C4": "E",
+        "C5": "P",
+        "C6": "E"
+      },
+      "position": 6
+    },
+    {
+      "poolId": "P20",
+      "publisher": "Открытое образование / СПбГУ",
+      "course": "Русская литература второй половины XIX века",
+      "score": 60,
+      "scoreUpperBound": 60,
+      "unresolvedCriteria": 0,
+      "criterionLevels": {
+        "C1": 2,
+        "C2": 2,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 2
+      },
+      "criterionPoints": {
+        "C1": 15,
+        "C2": 10,
+        "C3": 11.25,
+        "C4": 11.25,
+        "C5": 7.5,
+        "C6": 5
+      },
+      "evidenceStatuses": {
+        "C1": "E",
+        "C2": "E",
+        "C3": "E",
+        "C4": "E",
+        "C5": "E",
+        "C6": "P"
+      },
+      "position": 6
+    },
+    {
+      "poolId": "P16",
+      "publisher": "Полка",
+      "course": "История русской поэзии",
+      "score": 58.75,
+      "scoreUpperBound": 68.75,
+      "unresolvedCriteria": 1,
+      "criterionLevels": {
+        "C1": 1,
+        "C2": 3,
+        "C3": 4,
+        "C4": 3,
+        "C5": null,
+        "C6": 4
+      },
+      "criterionPoints": {
+        "C1": 7.5,
+        "C2": 15,
+        "C3": 15,
+        "C4": 11.25,
+        "C5": 0,
+        "C6": 10
+      },
+      "evidenceStatuses": {
+        "C1": "E",
+        "C2": "E",
+        "C3": "E",
+        "C4": "E",
+        "C5": "U",
+        "C6": "E"
+      },
+      "position": 8
+    },
+    {
+      "poolId": "P06",
+      "publisher": "Level One",
+      "course": "Литература Англии и Америки",
+      "score": 55,
+      "scoreUpperBound": 65,
+      "unresolvedCriteria": 1,
+      "criterionLevels": {
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 2,
+        "C5": null,
+        "C6": 4
+      },
+      "criterionPoints": {
+        "C1": 15,
+        "C2": 15,
+        "C3": 7.5,
+        "C4": 7.5,
+        "C5": 0,
+        "C6": 10
+      },
+      "evidenceStatuses": {
+        "C1": "E",
+        "C2": "E",
+        "C3": "E",
+        "C4": "E",
+        "C5": "U",
+        "C6": "E"
+      },
+      "position": 9
+    },
+    {
+      "poolId": "P07",
+      "publisher": "Arzamas",
+      "course": "Как читать любимые книги по-новому",
+      "score": 55,
+      "scoreUpperBound": 65,
+      "unresolvedCriteria": 1,
+      "criterionLevels": {
+        "C1": 3,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 3,
+        "C6": null
+      },
+      "criterionPoints": {
+        "C1": 22.5,
+        "C2": 10,
+        "C3": 7.5,
+        "C4": 7.5,
+        "C5": 7.5,
+        "C6": 0
+      },
+      "evidenceStatuses": {
+        "C1": "E",
+        "C2": "E",
+        "C3": "E",
+        "C4": "E",
+        "C5": "E",
+        "C6": "U"
+      },
+      "position": 9
+    }
+  ],
+  "allCandidates": [
+    {
+      "poolId": "P01",
+      "publisher": "Синхронизация",
+      "course": "Книги великих писателей",
+      "score": 70,
+      "scoreUpperBound": 70,
+      "unresolvedCriteria": 0,
+      "criterionLevels": {
+        "C1": 4,
+        "C2": 2,
+        "C3": 3,
+        "C4": 3,
+        "C5": 1,
+        "C6": 2
+      },
+      "criterionPoints": {
+        "C1": 30,
+        "C2": 10,
+        "C3": 11.25,
+        "C4": 11.25,
+        "C5": 2.5,
+        "C6": 5
+      },
+      "evidenceStatuses": {
+        "C1": "P",
+        "C2": "P",
+        "C3": "P",
+        "C4": "P",
+        "C5": "P",
+        "C6": "P"
+      },
+      "position": 1
+    },
+    {
+      "poolId": "P10",
+      "publisher": "МИФ",
+      "course": "Читальный зал: русская классика",
+      "score": 68.75,
+      "scoreUpperBound": 68.75,
+      "unresolvedCriteria": 0,
+      "criterionLevels": {
+        "C1": 3,
+        "C2": 2,
+        "C3": 4,
+        "C4": 3,
+        "C5": 1,
+        "C6": 3
+      },
+      "criterionPoints": {
+        "C1": 22.5,
+        "C2": 10,
+        "C3": 15,
+        "C4": 11.25,
+        "C5": 2.5,
+        "C6": 7.5
+      },
+      "evidenceStatuses": {
+        "C1": "E",
+        "C2": "E",
+        "C3": "E",
+        "C4": "E",
+        "C5": "E",
+        "C6": "E"
+      },
+      "position": 2
+    },
+    {
+      "poolId": "P11",
+      "publisher": "МИФ",
+      "course": "Читальный зал: зарубежная классика",
+      "score": 68.75,
+      "scoreUpperBound": 68.75,
+      "unresolvedCriteria": 0,
+      "criterionLevels": {
+        "C1": 3,
+        "C2": 2,
+        "C3": 4,
+        "C4": 3,
+        "C5": 2,
+        "C6": 2
+      },
+      "criterionPoints": {
+        "C1": 22.5,
+        "C2": 10,
+        "C3": 15,
+        "C4": 11.25,
+        "C5": 5,
+        "C6": 5
+      },
+      "evidenceStatuses": {
+        "C1": "P",
+        "C2": "P",
+        "C3": "P",
+        "C4": "P",
+        "C5": "P",
+        "C6": "P"
+      },
+      "position": 2
+    },
+    {
+      "poolId": "P04",
+      "publisher": "Level One",
+      "course": "Главные книги русской литературы",
+      "score": 67.5,
+      "scoreUpperBound": 67.5,
+      "unresolvedCriteria": 0,
+      "criterionLevels": {
+        "C1": 3,
+        "C2": 2,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 2
+      },
+      "criterionPoints": {
+        "C1": 22.5,
+        "C2": 10,
+        "C3": 11.25,
+        "C4": 11.25,
+        "C5": 7.5,
+        "C6": 5
+      },
+      "evidenceStatuses": {
+        "C1": "P",
+        "C2": "P",
+        "C3": "P",
+        "C4": "P",
+        "C5": "P",
+        "C6": "P"
+      },
+      "position": 4
+    },
+    {
+      "poolId": "P12",
+      "publisher": "Правое полушарие Интроверта",
+      "course": "История литературы за 24 часа",
+      "score": 65,
+      "scoreUpperBound": 65,
+      "unresolvedCriteria": 0,
+      "criterionLevels": {
+        "C1": 2,
+        "C2": 2,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 4
+      },
+      "criterionPoints": {
+        "C1": 15,
+        "C2": 10,
+        "C3": 11.25,
+        "C4": 11.25,
+        "C5": 7.5,
+        "C6": 10
+      },
+      "evidenceStatuses": {
+        "C1": "E",
+        "C2": "E",
+        "C3": "E",
+        "C4": "E",
+        "C5": "E",
+        "C6": "E"
+      },
+      "position": 5
+    },
+    {
+      "poolId": "P05",
+      "publisher": "Level One",
+      "course": "Достоевский, Толстой, Чехов",
+      "score": 60,
+      "scoreUpperBound": 60,
+      "unresolvedCriteria": 0,
+      "criterionLevels": {
+        "C1": 3,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 1,
+        "C6": 4
+      },
+      "criterionPoints": {
+        "C1": 22.5,
+        "C2": 10,
+        "C3": 7.5,
+        "C4": 7.5,
+        "C5": 2.5,
+        "C6": 10
+      },
+      "evidenceStatuses": {
+        "C1": "E",
+        "C2": "E",
+        "C3": "E",
+        "C4": "E",
+        "C5": "P",
+        "C6": "E"
+      },
+      "position": 6
+    },
+    {
+      "poolId": "P20",
+      "publisher": "Открытое образование / СПбГУ",
+      "course": "Русская литература второй половины XIX века",
+      "score": 60,
+      "scoreUpperBound": 60,
+      "unresolvedCriteria": 0,
+      "criterionLevels": {
+        "C1": 2,
+        "C2": 2,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 2
+      },
+      "criterionPoints": {
+        "C1": 15,
+        "C2": 10,
+        "C3": 11.25,
+        "C4": 11.25,
+        "C5": 7.5,
+        "C6": 5
+      },
+      "evidenceStatuses": {
+        "C1": "E",
+        "C2": "E",
+        "C3": "E",
+        "C4": "E",
+        "C5": "E",
+        "C6": "P"
+      },
+      "position": 6
+    },
+    {
+      "poolId": "P16",
+      "publisher": "Полка",
+      "course": "История русской поэзии",
+      "score": 58.75,
+      "scoreUpperBound": 68.75,
+      "unresolvedCriteria": 1,
+      "criterionLevels": {
+        "C1": 1,
+        "C2": 3,
+        "C3": 4,
+        "C4": 3,
+        "C5": null,
+        "C6": 4
+      },
+      "criterionPoints": {
+        "C1": 7.5,
+        "C2": 15,
+        "C3": 15,
+        "C4": 11.25,
+        "C5": 0,
+        "C6": 10
+      },
+      "evidenceStatuses": {
+        "C1": "E",
+        "C2": "E",
+        "C3": "E",
+        "C4": "E",
+        "C5": "U",
+        "C6": "E"
+      },
+      "position": 8
+    },
+    {
+      "poolId": "P06",
+      "publisher": "Level One",
+      "course": "Литература Англии и Америки",
+      "score": 55,
+      "scoreUpperBound": 65,
+      "unresolvedCriteria": 1,
+      "criterionLevels": {
+        "C1": 2,
+        "C2": 3,
+        "C3": 2,
+        "C4": 2,
+        "C5": null,
+        "C6": 4
+      },
+      "criterionPoints": {
+        "C1": 15,
+        "C2": 15,
+        "C3": 7.5,
+        "C4": 7.5,
+        "C5": 0,
+        "C6": 10
+      },
+      "evidenceStatuses": {
+        "C1": "E",
+        "C2": "E",
+        "C3": "E",
+        "C4": "E",
+        "C5": "U",
+        "C6": "E"
+      },
+      "position": 9
+    },
+    {
+      "poolId": "P07",
+      "publisher": "Arzamas",
+      "course": "Как читать любимые книги по-новому",
+      "score": 55,
+      "scoreUpperBound": 65,
+      "unresolvedCriteria": 1,
+      "criterionLevels": {
+        "C1": 3,
+        "C2": 2,
+        "C3": 2,
+        "C4": 2,
+        "C5": 3,
+        "C6": null
+      },
+      "criterionPoints": {
+        "C1": 22.5,
+        "C2": 10,
+        "C3": 7.5,
+        "C4": 7.5,
+        "C5": 7.5,
+        "C6": 0
+      },
+      "evidenceStatuses": {
+        "C1": "E",
+        "C2": "E",
+        "C3": "E",
+        "C4": "E",
+        "C5": "E",
+        "C6": "U"
+      },
+      "position": 9
+    },
+    {
+      "poolId": "P02",
+      "publisher": "Синхронизация",
+      "course": "Главные книги-антиутопии",
+      "score": 53.75,
+      "scoreUpperBound": 63.75,
+      "unresolvedCriteria": 1,
+      "criterionLevels": {
+        "C1": 3,
+        "C2": 1,
+        "C3": 3,
+        "C4": 2,
+        "C5": null,
+        "C6": 3
+      },
+      "criterionPoints": {
+        "C1": 22.5,
+        "C2": 5,
+        "C3": 11.25,
+        "C4": 7.5,
+        "C5": 0,
+        "C6": 7.5
+      },
+      "evidenceStatuses": {
+        "C1": "P",
+        "C2": "P",
+        "C3": "P",
+        "C4": "P",
+        "C5": "U",
+        "C6": "P"
+      },
+      "position": 11
+    },
+    {
+      "poolId": "P14",
+      "publisher": "Лекториум",
+      "course": "Литература в диалоге прошлого и настоящего",
+      "score": 53.75,
+      "scoreUpperBound": 53.75,
+      "unresolvedCriteria": 0,
+      "criterionLevels": {
+        "C1": 1,
+        "C2": 2,
+        "C3": 2,
+        "C4": 3,
+        "C5": 3,
+        "C6": 4
+      },
+      "criterionPoints": {
+        "C1": 7.5,
+        "C2": 10,
+        "C3": 7.5,
+        "C4": 11.25,
+        "C5": 7.5,
+        "C6": 10
+      },
+      "evidenceStatuses": {
+        "C1": "E",
+        "C2": "E",
+        "C3": "E",
+        "C4": "E",
+        "C5": "E",
+        "C6": "E"
+      },
+      "position": 11
+    },
+    {
+      "poolId": "P15",
+      "publisher": "Полка",
+      "course": "КЛИК Полка",
+      "score": 48.75,
+      "scoreUpperBound": 58.75,
+      "unresolvedCriteria": 1,
+      "criterionLevels": {
+        "C1": 2,
+        "C2": 3,
+        "C3": 1,
+        "C4": 2,
+        "C5": null,
+        "C6": 3
+      },
+      "criterionPoints": {
+        "C1": 15,
+        "C2": 15,
+        "C3": 3.75,
+        "C4": 7.5,
+        "C5": 0,
+        "C6": 7.5
+      },
+      "evidenceStatuses": {
+        "C1": "E",
+        "C2": "E",
+        "C3": "E",
+        "C4": "E",
+        "C5": "U",
+        "C6": "E"
+      },
+      "position": 13
+    },
+    {
+      "poolId": "P17",
+      "publisher": "Магистерия",
+      "course": "Приключения американской мечты",
+      "score": 48.75,
+      "scoreUpperBound": 58.75,
+      "unresolvedCriteria": 1,
+      "criterionLevels": {
+        "C1": 2,
+        "C2": 2,
+        "C3": 3,
+        "C4": 2,
+        "C5": null,
+        "C6": 2
+      },
+      "criterionPoints": {
+        "C1": 15,
+        "C2": 10,
+        "C3": 11.25,
+        "C4": 7.5,
+        "C5": 0,
+        "C6": 5
+      },
+      "evidenceStatuses": {
+        "C1": "P",
+        "C2": "P",
+        "C3": "P",
+        "C4": "P",
+        "C5": "U",
+        "C6": "P"
+      },
+      "position": 13
+    },
+    {
+      "poolId": "P09",
+      "publisher": "Arzamas",
+      "course": "Как работает литература",
+      "score": 46.25,
+      "scoreUpperBound": 66.25,
+      "unresolvedCriteria": 2,
+      "criterionLevels": {
+        "C1": 2,
+        "C2": 4,
+        "C3": 1,
+        "C4": 2,
+        "C5": null,
+        "C6": null
+      },
+      "criterionPoints": {
+        "C1": 15,
+        "C2": 20,
+        "C3": 3.75,
+        "C4": 7.5,
+        "C5": 0,
+        "C6": 0
+      },
+      "evidenceStatuses": {
+        "C1": "E",
+        "C2": "E",
+        "C3": "E",
+        "C4": "E",
+        "C5": "U",
+        "C6": "U"
+      },
+      "position": 15
+    }
+  ]
+}

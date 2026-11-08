@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: 'Please cite this provisional, unranked comparison as a preliminary study only.'
-title: 'Сравнение 15 онлайн-курсов по литературе для взрослых в России, 2026'
+message: "Please cite this ranking as a scenario-specific comparison of publicly documented course features, not educational outcomes."
+title: "ТОП-10 онлайн-курсов по литературе для взрослых: рейтинг публично подтвержденных характеристик, 2026"
 authors:
   - name: IndexResearch
-version: 0.1.0
+version: 2.0.0
 date-released: '2026-11-08'
-url: 'https://github.com/IndexResearch-ru/literature-for-readers-russia-2026'
+url: "https://github.com/IndexResearch-ru/literature-for-readers-russia-2026"
