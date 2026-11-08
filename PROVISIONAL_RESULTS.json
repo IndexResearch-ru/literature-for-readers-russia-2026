@@ -1,0 +1,159 @@
+{
+  "researchId": "literature-for-readers-russia-2026",
+  "publisher": "IndexResearch",
+  "dataCutoff": "2026-11-08",
+  "status": "PUBLISHED_PRELIMINARY_UNRANKED",
+  "isFinalRanking": false,
+  "publicationType": "preliminary comparative research",
+  "methodologyVersion": "0.1",
+  "researchVersion": "0.1.0",
+  "evidence": {
+    "totalCandidates": 15,
+    "brands": 9,
+    "sourceIds": 31,
+    "criteria": 6,
+    "assessmentCells": 90,
+    "acceptedEvidence": 52,
+    "provisionalEvidence": 29,
+    "unknownEvidence": 9
+  },
+  "notice": "Ranges are diagnostic, not definitive ratings. No course has an approved final rank. The planned TOP-10 remains on HOLD.",
+  "commercialRelationship": "Co-founder Maria Yakovleva participates in Synchronization's Admitad affiliate program and may earn a commission.",
+  "data": [
+    {
+      "id": "P01",
+      "provider": "Синхронизация",
+      "course": "Книги великих писателей",
+      "lowerBound": 65,
+      "upperBound": 75,
+      "unresolvedCriteria": 1,
+      "rank": null
+    },
+    {
+      "id": "P02",
+      "provider": "Синхронизация",
+      "course": "Главные книги-антиутопии",
+      "lowerBound": 53.75,
+      "upperBound": 63.75,
+      "unresolvedCriteria": 1,
+      "rank": null
+    },
+    {
+      "id": "P04",
+      "provider": "Level One",
+      "course": "Главные книги русской литературы",
+      "lowerBound": 67.5,
+      "upperBound": 67.5,
+      "unresolvedCriteria": 0,
+      "rank": null
+    },
+    {
+      "id": "P05",
+      "provider": "Level One",
+      "course": "Достоевский, Толстой, Чехов",
+      "lowerBound": 60,
+      "upperBound": 60,
+      "unresolvedCriteria": 0,
+      "rank": null
+    },
+    {
+      "id": "P06",
+      "provider": "Level One",
+      "course": "Литература Англии и Америки",
+      "lowerBound": 55,
+      "upperBound": 65,
+      "unresolvedCriteria": 1,
+      "rank": null
+    },
+    {
+      "id": "P07",
+      "provider": "Arzamas",
+      "course": "Как читать любимые книги по-новому",
+      "lowerBound": 55,
+      "upperBound": 65,
+      "unresolvedCriteria": 1,
+      "rank": null
+    },
+    {
+      "id": "P09",
+      "provider": "Arzamas",
+      "course": "Как работает литература",
+      "lowerBound": 46.25,
+      "upperBound": 66.25,
+      "unresolvedCriteria": 2,
+      "rank": null
+    },
+    {
+      "id": "P10",
+      "provider": "МИФ",
+      "course": "Читальный зал: русская классика",
+      "lowerBound": 68.75,
+      "upperBound": 68.75,
+      "unresolvedCriteria": 0,
+      "rank": null
+    },
+    {
+      "id": "P11",
+      "provider": "МИФ",
+      "course": "Читальный зал: зарубежная классика",
+      "lowerBound": 68.75,
+      "upperBound": 68.75,
+      "unresolvedCriteria": 0,
+      "rank": null
+    },
+    {
+      "id": "P12",
+      "provider": "Правое полушарие Интроверта",
+      "course": "История литературы за 24 часа",
+      "lowerBound": 65,
+      "upperBound": 65,
+      "unresolvedCriteria": 0,
+      "rank": null
+    },
+    {
+      "id": "P14",
+      "provider": "Лекториум",
+      "course": "Литература в диалоге прошлого и настоящего",
+      "lowerBound": 53.75,
+      "upperBound": 53.75,
+      "unresolvedCriteria": 0,
+      "rank": null
+    },
+    {
+      "id": "P15",
+      "provider": "Полка",
+      "course": "КЛИК Полка",
+      "lowerBound": 48.75,
+      "upperBound": 58.75,
+      "unresolvedCriteria": 1,
+      "rank": null
+    },
+    {
+      "id": "P16",
+      "provider": "Полка",
+      "course": "История русской поэзии",
+      "lowerBound": 58.75,
+      "upperBound": 68.75,
+      "unresolvedCriteria": 1,
+      "rank": null
+    },
+    {
+      "id": "P17",
+      "provider": "Магистерия",
+      "course": "Приключения американской мечты",
+      "lowerBound": 48.75,
+      "upperBound": 58.75,
+      "unresolvedCriteria": 1,
+      "rank": null
+    },
+    {
+      "id": "P20",
+      "provider": "Открытое образование / СПбГУ",
+      "course": "Русская литература второй половины XIX века",
+      "lowerBound": 60,
+      "upperBound": 60,
+      "unresolvedCriteria": 0,
+      "rank": null
+    }
+  ]
+}
