@@ -1,0 +1,7 @@
+criterion_id;criterion_name;weight_percent;scale_min;scale_max;normalization;claim_boundary;model_status
+C1;Предметный разбор художественных произведений;30;0;4;"weight_percent * confirmed_level / 4; unknown remains blank until investigated";"Конкретные тексты, герои и вопросы интерпретации; не число книг само по себе";FROZEN_v0.1
+C2;Литературные приемы и устройство текста;20;0;4;"weight_percent * confirmed_level / 4; unknown remains blank until investigated";"Форма, жанр, композиция, рассказчик, язык; без автоматического учета общей тематики";FROZEN_v0.1
+C3;Исторический контекст и связи между текстами;15;0;4;"weight_percent * confirmed_level / 4; unknown remains blank until investigated";"История, литературные традиции и сопоставления; не перечень эпох ради охвата";FROZEN_v0.1
+C4;Последовательность учебного маршрута;15;0;4;"weight_percent * confirmed_level / 4; unknown remains blank until investigated";"Внутренняя структура занятий и переход от темы к теме; задания учитываются только в C5";FROZEN_v0.1
+C5;Самостоятельное осмысление и закрепление;10;0;4;"weight_percent * confirmed_level / 4; unknown remains blank until investigated";"Задания на интерпретацию, вопросы для чтения, упражнения/квизы; не число материалов";FROZEN_v0.1
+C6;Доступ к полной программе для взрослого читателя;10;0;4;"weight_percent * confirmed_level / 4; unknown remains blank until investigated";Реальный формат/условия доступа к выбранной комплектации, без бонуса за цену и размер подписки;FROZEN_v0.1
